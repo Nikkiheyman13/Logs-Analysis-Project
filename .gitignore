@@ -1,0 +1,4 @@
+#untracked file types
+*.sql
+
+*.DS_Store
