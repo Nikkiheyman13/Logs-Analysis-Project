@@ -63,15 +63,15 @@ def get_query_result(query):
 
 # execute above queries
 def print_query_results(query_result):
-    print (query_result['question'])
+    print(query_result['question'])
     for result in query_result['results']:
-        print ('\t' + str(result[0]) + ' ---> ' + str(result[1]) + ' views')
+        print('\t' + str(result[0]) + ' ---> ' + str(result[1]) + ' views')
 
 
 def print_query_results_error(query_result):
-    print (query_result['question'])
+    print(query_result['question'])
     for result in query_result['results']:
-        print ('\t' + str(result[0].strftime('%B %d, %Y')) + ' ---> ' +
+        print('\t' + str(result[0].strftime('%B %d, %Y')) + ' ---> ' +
                str(result[1]) + ' % errors')
 
 
