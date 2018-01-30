@@ -7,20 +7,20 @@ This is the Log Analysis Project for Udacity's Full Stack Nanodegree. In this pr
 
 We are using the data to answer the following questions:
 
-What are the most popular three articles of all time?
-Who are the most popular article authors of all time?
-On which days did more than 1% of requests lead to errors?
++ What are the most popular three articles of all time?
++ Who are the most popular article authors of all time?
++ On which days did more than 1% of requests lead to errors?
 
 ### Content
 
-`news.py`: This file contains the python source code
-`results.txt`: This is the output that is created by log_analysis.py
++ `news.py`: This file contains the python source code
++ `results.txt`: This is the output that is created by log_analysis.py
 
 ### Prerequisites
 
-[Python3](https://www.python.org/download/releases/3.0/)
-[Vagrant](https://www.vagrantup.com/)
-[VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
+- [Python3](https://www.python.org/download/releases/3.0/)
+- [Vagrant](https://www.vagrantup.com/)
+- [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
 
 Clone this repository:
 
